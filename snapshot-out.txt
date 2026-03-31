@@ -1,0 +1,143 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.1.2 [39m[90mC:/Planetary_weight[39m
+
+ [31mΓ¥»[39m src/test/components.test.tsx [2m([22m[2m4 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 446[2mms[22m[39m
+[31m     [31m├ù[31m CalculatorView matches snapshot[39m[32m 28[2mms[22m[39m
+     [33m[2mΓ£ô[22m[39m CompareView matches snapshot [33m 384[2mms[22m[39m
+     [32mΓ£ô[39m BodyDetail matches snapshot[32m 5[2mms[22m[39m
+     [32mΓ£ô[39m CustomBodyView matches snapshot[32m 26[2mms[22m[39m
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : 
+NotSpecified: (:    
+String) [], RemoteExc 
+   eption
+    + 
+FullyQualifiedError   
+ Id : 
+NativeCommandErr    or
+ 
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»[39m[1m[41m 
+Failed Tests 1 [49m[
+22m[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»[39m
+
+[41m[1m FAIL 
+[22m[49m src/test/co
+mponents.test.tsx[2m 
+> [22mComponent 
+Snapshots[2m > 
+[22mCalculatorView 
+matches snapshot
+[31m[1mTypeError[22
+m: Cannot read 
+properties of 
+undefined (reading 
+'trim')[39m
+[36m [2mΓ¥»[22m src
+/components/BodySelect
+or.tsx:[2m17:21[22m
+[39m
+    [90m 15|[39m    
+ }
+    [90m 16|[39m
+    [90m 17|[39m    
+ [35mif[39m (searchQ
+uery[33m.[39m[34mtr
+im[39m()) {
+    [90m   |[39m    
+                 
+[31m^[39m
+    [90m 18|[39m    
+   [35mconst[39m q 
+[33m=[39m searchQuer
+y[33m.[39m[34mtoLow
+erCase[39m()[33m.[3
+9m[34mtrim[39m()[33
+m;[39m
+    [90m 19|[39m    
+   bodies [33m=[39m 
+bodies[33m.[39m[34m
+filter[39m((b) 
+[33m=>[39m b[33m.[
+39mname[33m.[39m[34
+mtoLowerCase[39m()[3
+3m.[39m[34mincludes
+[39m(q))[33m;[39m
+[90m [2mΓ¥»[22m 
+mountMemo node_modules
+/react-dom/cjs/react-d
+om-client.development.
+js:[2m8777:23[22m[3
+9m
+[90m [2mΓ¥»[22m 
+Object.useMemo node_mo
+dules/react-dom/cjs/re
+act-dom-client.develop
+ment.js:[2m26216:18[
+22m[39m
+[90m [2mΓ¥»[22m pro
+cess.env.NODE_ENV.expo
+rts.useMemo node_modul
+es/react/cjs/react.dev
+elopment.js:[2m1251:3
+4[22m[39m
+[90m [2mΓ¥»[22m 
+BodySelector src/compo
+nents/BodySelector.tsx
+:[2m10:26[22m[39m
+[90m [2mΓ¥»[22m Obj
+ect.react_stack_bottom
+_frame node_modules/re
+act-dom/cjs/react-dom-
+client.development.js:
+[2m25904:20[22m[39m
+[90m [2mΓ¥»[22m 
+renderWithHooks node_m
+odules/react-dom/cjs/r
+eact-dom-client.develo
+pment.js:[2m7662:22[
+22m[39m
+[90m [2mΓ¥»[22m upd
+ateFunctionComponent n
+ode_modules/react-dom/
+cjs/react-dom-client.d
+evelopment.js:[2m1016
+6:19[22m[39m
+[90m [2mΓ¥»[22m 
+beginWork node_modules
+/react-dom/cjs/react-d
+om-client.development.
+js:[2m11778:18[22m[
+39m
+[90m [2mΓ¥»[22m 
+runWithFiberInDEV node
+_modules/react-dom/cjs
+/react-dom-client.deve
+lopment.js:[2m874:13
+[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/1]ΓÄ
+»[22m[39m
+
+
+[2m  Snapshots [22m [1m[32m3 written[39m[22m
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m3 passed[39m[22m[90m (4)[39m
+[2m   Start at [22m 12:35:54
+[2m   Duration [22m 3.41s[2m (transform 220ms, setup 209ms, import 739ms, tests 446ms, environment 1.79s)[22m
+

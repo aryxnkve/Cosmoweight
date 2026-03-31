@@ -1,0 +1,52 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.1.2 [39m[90mC:/Planetary_weight[39m
+
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22mkg ΓåÆ kg (identity)[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22m1 Earth mass ΓåÆ 5.972e24 kg[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22m1 Jupiter mass ΓåÆ 1.898e27 kg[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22m1 Solar mass ΓåÆ 1.989e30 kg[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22m2.5 Earth masses[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22m0 kg ΓåÆ 0[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoKilograms[2m > [22mfractional Solar mass[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22mm ΓåÆ m (identity)[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m1 km ΓåÆ 1000 m[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m1 Earth radius ΓåÆ 6.371e6 m[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m1 AU ΓåÆ 1.496e11 m[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m2 Earth radii[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m0 m ΓåÆ 0[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m10 km ΓåÆ 10000 m[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/unitConversion.test.ts[2m > [22mtoMetres[2m > [22m0.5 AU[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/celestialBodies.test.ts[2m > [22mcelestialBodies data[2m > [22mcontains at least 8 solar-system planets[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m src/test/celestialBodies.test.ts[2m > [22mcelestialBodies data[2m > [22mEarth has a gravity multiplier of 1.0[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/celestialBodies.test.ts[2m > [22mcelestialBodies data[2m > [22mevery body has a unique id[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/celestialBodies.test.ts[2m > [22mcelestialBodies data[2m > [22mphysical bodies have valid gravity multipliers[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m src/test/celestialBodies.test.ts[2m > [22mcelestialBodies data[2m > [22mtotal body count exceeds 40[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mAC-01: Earth ΓåÆ g = 9.807 ┬▒ 0.001 m/s┬▓[32m 2[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mAC-02: Mars (0.1074 MΓèò, 0.5320 RΓèò) ΓåÆ g Γëê 3.721 m/s┬▓[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mJupiter (317.8 MΓèò, 10.97 RΓèò) ΓåÆ g in range 24-26 m/s┬▓[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mMoon (0.01230 MΓèò, 0.2727 RΓèò) ΓåÆ g Γëê 1.622 m/s┬▓[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mNeutron Star (1.4 MΓÿë, 10 km) ΓåÆ g Γëê 1.86 ├ù 10┬╣┬▓ m/s┬▓[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mHypothetical: 2├ù Earth mass, same radius ΓåÆ g Γëê 2├ù Earth[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mHypothetical: Earth mass, 2├ù radius ΓåÆ g Γëê 0.25├ù Earth[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mPRD ┬º12 Verification Test Cases[2m > [22mAC-03: Black hole trigger (1 MΓÿë, 0.001 km) ΓåÆ is_black_hole = true[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeGravity[2m > [22muses correct gravitational constant[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeGravity[2m > [22mproduces non-negative gravity for valid inputs[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeGravity[2m > [22mcomputes density correctly for a sphere[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeGravity[2m > [22mcomputes escape velocity correctly[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeGravity[2m > [22mAC-08: extremely large input (1e5 solar masses) does not crash[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeWeight[2m > [22mweight on Earth-like body equals input weight[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeWeight[2m > [22mweight in lbs converts correctly[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeWeight[2m > [22mweight in Newtons uses correct formula[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcomputeWeight[2m > [22mweight on Mars is ~38% of Earth weight[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcheckPlausibility[2m > [22mreturns black hole warning when r Γëñ r_schwarzschild[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcheckPlausibility[2m > [22mreturns extreme gravity warning when g > 1000[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcheckPlausibility[2m > [22mreturns extreme density warning when > 1e8 kg/m┬│[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcheckPlausibility[2m > [22mreturns near-zero gravity warning when g < 0.001[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcheckPlausibility[2m > [22mreturns too-small warning when mass < 1e18[32m 0[2mms[22m[39m
+ [32mΓ£ô[39m src/test/gravityEngine.test.ts[2m > [22mcheckPlausibility[2m > [22mreturns no warnings for Earth-like values[32m 1[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m      Tests [22m [1m[32m43 passed[39m[22m[90m (43)[39m
+[2m   Start at [22m 12:07:27
+[2m   Duration [22m 1.71s[2m (transform 158ms, setup 385ms, import 167ms, tests 15ms, environment 3.83s)[22m
+

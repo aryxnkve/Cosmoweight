@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Version control
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Scripts & docs
+cwc.sh
+README.md
+clean_planets.py
+
+# Android build output (keep source, skip compiled)
+android/app/build
+android/.gradle
+
+# Misc
+*.log
+*.env.local

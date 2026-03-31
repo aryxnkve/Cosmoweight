@@ -1,0 +1,131 @@
+﻿
+[1m[46m RUN [49m[22m [36mv4.1.2 [39m[90mC:/Planetary_weight[39m
+
+ [31mΓ¥»[39m src/test/components.test.tsx [2m([22m[2m4 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[33m 549[2mms[22m[39m
+[31m     [31m├ù[31m CalculatorView matches snapshot[39m[32m 243[2mms[22m[39m
+     [32mΓ£ô[39m CompareView matches snapshot[32m 263[2mms[22m[39m
+     [32mΓ£ô[39m BodyDetail matches snapshot[32m 8[2mms[22m[39m
+     [32mΓ£ô[39m CustomBodyView matches snapshot[32m 32[2mms[22m[39m
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (:  
+  String) [], RemoteExc   
+ eption
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+[31mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+[39m[1m[41m Failed 
+Tests 1 [49m[22m[31mΓÄ»
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[39m
+
+[41m[1m FAIL [22m[49m 
+src/test/components.test.t
+sx[2m > [22mComponent 
+Snapshots[2m > 
+[22mCalculatorView 
+matches snapshot
+[31m[1mTypeError[22m: 
+Cannot read properties of 
+undefined (reading 
+'toFixed')[39m
+[36m [2mΓ¥»[22m 
+WeightResult src/component
+s/WeightResult.tsx:[2m193
+:72[22m[39m
+    [90m191|[39m        
+   
+[33m<[39m[33mdiv[39m 
+[33mclassName[39m[33m=[
+39m[32m"result-stat"[39m
+[33m>[39m
+    [90m192|[39m        
+     
+[33m<[39m[33mp[39m [3
+3mclassName[39m[33m=[39
+m[32m"result-stat-label"
+[39m[33m>[39mSurface Gra
+vity[33m<[39m[33m/[39m
+[33mp[39m[33m>[39m
+    [90m193|[39m        
+     <p className="result-
+stat-value">{result.surfac
+eGravityMs2ΓÇª
+    [90m   |[39m        
+                          
+                          
+            [31m^[39m
+    [90m194|[39m        
+   [33m<[39m[33m/[39m
+[33mdiv[39m[33m>[39m
+    [90m195|[39m        
+ [33m<[39m[33m/[39m[3
+3mdiv[39m[33m>[39m
+[90m [2mΓ¥»[22m Object.
+react_stack_bottom_frame n
+ode_modules/react-dom/cjs/
+react-dom-client.developme
+nt.js:[2m25904:20[22m[3
+9m
+[90m [2mΓ¥»[22m 
+renderWithHooks node_modul
+es/react-dom/cjs/react-dom
+-client.development.js:[2
+m7662:22[22m[39m
+[90m [2mΓ¥»[22m 
+updateFunctionComponent no
+de_modules/react-dom/cjs/r
+eact-dom-client.developmen
+t.js:[2m10166:19[22m[39
+m
+[90m [2mΓ¥»[22m 
+beginWork node_modules/rea
+ct-dom/cjs/react-dom-clien
+t.development.js:[2m11778
+:18[22m[39m
+[90m [2mΓ¥»[22m 
+runWithFiberInDEV node_mod
+ules/react-dom/cjs/react-d
+om-client.development.js:
+[2m874:13[22m[39m
+[90m [2mΓ¥»[22m 
+performUnitOfWork node_mod
+ules/react-dom/cjs/react-d
+om-client.development.js:
+[2m17641:22[22m[39m
+[90m [2mΓ¥»[22m 
+workLoopSync node_modules/
+react-dom/cjs/react-dom-cl
+ient.development.js:[2m17
+469:41[22m[39m
+[90m [2mΓ¥»[22m 
+renderRootSync node_module
+s/react-dom/cjs/react-dom-
+client.development.js:[2m
+17450:11[22m[39m
+[90m [2mΓ¥»[22m 
+performWorkOnRoot node_mod
+ules/react-dom/cjs/react-d
+om-client.development.js:
+[2m16583:35[22m[39m
+
+[31m[2mΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ
+»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»Γ
+Ä»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+ΓÄ»[1/1]ΓÄ»[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m3 passed[39m[22m[90m (4)[39m
+[2m   Start at [22m 15:24:48
+[2m   Duration [22m 2.87s[2m (transform 219ms, setup 140ms, import 633ms, tests 549ms, environment 1.31s)[22m
+

@@ -1,0 +1,73 @@
+# ═══════════════════════════════════════════════════════════════════
+#  Cosmic Weight Calculator — Docker Compose
+# ═══════════════════════════════════════════════════════════════════
+
+services:
+  # ── Development (hot-reload on :5173) ─────────────────────────
+  web:
+    build:
+      context: .
+      target: dev
+    container_name: cwc-web
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules        # anonymous volume preserves container node_modules
+    environment:
+      - NODE_ENV=development
+    restart: unless-stopped
+
+  # ── Unit Tests (Vitest) ────────────────────────────────────────
+  test:
+    build:
+      context: .
+      target: test
+    container_name: cwc-test
+    profiles:
+      - test
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - CI=true
+
+  # ── Production (Nginx on :80) ──────────────────────────────────
+  web-prod:
+    build:
+      context: .
+      target: production
+    container_name: cwc-nginx
+    profiles:
+      - production
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  # ── Android APK Builder ────────────────────────────────────────
+  android-builder:
+    image: reactnativecommunity/react-native-android:latest
+    container_name: cwc-android
+    profiles:
+      - android
+    working_dir: /app/android
+    volumes:
+      - .:/app
+      - gradle-cache:/root/.gradle
+    environment:
+      - BUILD_TYPE=debug
+    command: >
+      bash -c "
+        cd /app/android &&
+        chmod +x gradlew &&
+        ./gradlew assemble${BUILD_TYPE:-Debug} --no-daemon
+      "
+
+volumes:
+  gradle-cache:
+    name: cwc-gradle-cache
