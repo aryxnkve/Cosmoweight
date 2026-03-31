@@ -4,8 +4,7 @@ Welcome to the **Cosmic Weight Calculator**! This is an interactive web applicat
 
 ## Features ✨
 - **Accurate Gravity Physics**: Calculates relative weight based on surface gravity data.
-- **Beautiful Visuals**: Rich, dark-mode aesthetic with high-fidelity planet representations.
-- **Interactive UI**: Smooth animations powered by Framer Motion.
+
 - **Educational Profiles**: Learn facts and details about every celestial body included.
 
 ---
