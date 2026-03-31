@@ -52,4 +52,4 @@ If you prefer not to install Node.js and already have [Docker Desktop](https://w
 - **Vite** (Build Tool)
 - **Framer Motion** (Animations)
 
-Created with ❤️ and Science.
+
